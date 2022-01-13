@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Password Generator</h1>
+        <div class="result-container">
+            <span id="result"></span>
+            <button class="btn btn-result" id="clipboard"><i class="bi bi-clipboard"></i></button>
+        </div>
+        <div class="settings">
+            <div class="setting align-items-center">
+                <label for="length">Password length</label>
+                <input class="form-control" type="number" id="length" min="4" max="20" value="20">
+            </div>
+            <div class="setting">
+                <label for="uppercase">Include uppercase letters</label>
+                <input class="form-check-input" type="checkbox" id="uppercase" checked>
+            </div>
+            <div class="setting">
+                <label for="lowercase">Include lowercaselatters</label>
+                <input class="form-check-input" type="checkbox" id="lowercase" checked>
+            </div>
+            <div class="setting">
+                <label for="numbers">Include numbers</label>
+                <input class="form-check-input" type="checkbox" id="numbers" checked>
+            </div>
+            <div class="setting">
+                <label for="symbols">Include symbols</label>
+                <input class="form-check-input" type="checkbox" id="symbols" checked>
+            </div>
+            <div class="text-center">
+                <button class="btn" id="generate">Generate password</button>
+            </div>
+        </div>
+    </div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
