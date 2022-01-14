@@ -1,2 +1,2 @@
 # password_generator_js
-Password Generator
+Password Generator [https://maninserg.github.io/password_generator_js/](https://maninserg.github.io/password_generator_js/)
